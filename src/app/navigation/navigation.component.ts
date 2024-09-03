@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
   selector: 'app-navigation',
   standalone: true,
-  imports: [],
+  imports: [ButtonModule],
   templateUrl: './navigation.component.html',
-  styleUrl: '../app.component.css',
+  styleUrl: './navigation.component.css',
 })
 export class NavigationComponent {}
